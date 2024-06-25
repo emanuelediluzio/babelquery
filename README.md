@@ -1,5 +1,3 @@
-### README
-
 # Tracciamento delle Tecnologie Emergenti con Neo4j e BabelNet utilizzando i dati di arXiv
 
 ## Descrizione
