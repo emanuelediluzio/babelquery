@@ -4,7 +4,7 @@ import csv
 import re
 from collections import Counter
 
-BABELNET_API_KEY = 'your_api'
+BABELNET_API_KEY = 'your_api_key'
 BABELNET_ENDPOINT = 'https://babelnet.io/v9/getSynsetIds'
 
 def get_babelnet_synsets(lemma, lang='EN'):
@@ -74,4 +74,3 @@ def clean_and_enrich_csv(input_file, output_file):
 input_file = 'cleaned_arxiv_data.csv'
 output_file = 'cleaned_arxiv_data_with_babelnet.csv'
 clean_and_enrich_csv(input_file, output_file)
-
